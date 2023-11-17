@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+img{
+    max-width: 20%;
+    display: flex;
+}
+h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.container{
+    max-width: 100%;
+    height: 300px;
+    background-color: rgba(240,125,0,255);
+    padding: 50px;
+    margin-top: 50px;
+}
+.containertop{
+    max-width: 100%;
+}
+
+#risultato{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+}
