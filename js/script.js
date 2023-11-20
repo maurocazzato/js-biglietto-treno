@@ -32,7 +32,7 @@ if (userEta < 18){
     risultao = risultato.toFixed(2);
 }
 
-console.log(risultato);
+    console.log(risultato);
 
 // risultato
 document.getElementById("risultato").innerHTML = "il prezzo finale del tuo biglietto è: " + risultato + "€";
