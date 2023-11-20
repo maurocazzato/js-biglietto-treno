@@ -19,7 +19,7 @@ const prezzoKm = (userKm * 0.21);
 console.log(prezzoKm);
 
 // calcolo in base all'età dell'user
-if (userEta >= 18){
+if (userEta < 18){
     sconto =  ((prezzoKm * 20) / 100);
     risultato = prezzoKm - sconto ;
     risultato = risultato.toFixed(2);
